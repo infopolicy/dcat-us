@@ -2483,10 +2483,10 @@ dcat-us-shp:Distribution_Shape-language a sh:PropertyShape ;
 
 dcat-us-shp:Distribution_Shape-license a sh:PropertyShape ;
     rdfs:label "license" ;
-    dcat-us-shp:requirementLevel dcat-us-shp:Recommended ;
-    sh:description "A licence under which the Distribution is made available." ;
+    dcat-us-shp:requirementLevel dcat-us-shp:Mandatory ;
+    sh:description "A license under which the Distribution is made available." ;
     sh:maxCount 1 ;
-    sh:minCount 0 ;
+    sh:minCount 1 ;
     sh:name "license" ;
     sh:or ( [ sh:nodeKind sh:BlankNodeOrIRI ] [ sh:class dcterms:LicenseDocument ] ) ;
     sh:path dcterms:license ;
