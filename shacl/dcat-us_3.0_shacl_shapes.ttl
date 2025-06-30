@@ -1704,7 +1704,6 @@ dcat-us-shp:Dataset_Shape-conformsTo a sh:PropertyShape ;
     rdfs:label "conforms to" ;
     dcat-us-shp:requirementLevel dcat-us-shp:Optional ;
     sh:description "This property refers to an standard which the described Dataset conforms." ;
-    sh:maxCount 1 ;
     sh:minCount 0 ;
     sh:name "conformsTo" ;
     sh:or ( [ sh:nodeKind sh:BlankNodeOrIRI ] [ sh:class dcterms:Standard ] ) ;

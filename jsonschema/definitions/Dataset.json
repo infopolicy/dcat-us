@@ -604,17 +604,20 @@
                     "type": "null"
                 },
                 {
-                    "oneOf": [
-                        {
-                            "$ref": "#/definitions/Standard",
-                            "description": "inline description of Standard"
-                        },
-                        {
-                            "type": "string",
-                            "description": "reference iri of Standard",
-                            "format": "iri"
-                        }
-                    ]
+                    "type": "array",
+                    "items": {
+						"oneOf": [
+							{
+								"$ref": "#/definitions/Standard",
+								"description": "inline description of Standard"
+							},
+							{
+								"type": "string",
+								"description": "reference iri of Standard",
+								"format": "iri"
+							}
+						]
+					}
                 }
             ]
         },
