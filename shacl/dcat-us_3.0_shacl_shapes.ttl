@@ -1757,11 +1757,11 @@ dcat-us-shp:Dataset_Shape-describedBy a sh:PropertyShape ;
     rdfs:label "data dictionary" ;
     dcat-us-shp:requirementLevel dcat-us-shp:Recommended ;
     sh:description "This property refers to a distribution describing the Data Dictionary." ;
-    sh:maxCount 1 ;
-    sh:minCount 0 ;
+    sh:minCount 1 ;
     sh:name "describedBy" ;
     sh:or ( [ sh:nodeKind sh:IRI ] [ sh:class dcat:Distribution ] ) ;
-    sh:path dcat-us:describedBy .
+    sh:path dcat-us:describedBy ;
+    sh:severity sh:Violation .
 
 dcat-us-shp:Dataset_Shape-description a sh:PropertyShape ;
     rdfs:label "description" ;
