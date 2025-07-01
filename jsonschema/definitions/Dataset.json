@@ -1178,7 +1178,7 @@
                 }
             ]
         },
-        "page": {
+        "documentation": {
             "$id": "http://xmlns.com/foaf/0.1/page",
             "title": "documentation",
             "description": "A page or document about this dataset",
